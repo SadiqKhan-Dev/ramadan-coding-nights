@@ -1,6 +1,6 @@
-# Simple API
+# Pakistani Joke Generator
 
-A simple API built with Python, UV, and FastAPI.
+A simple API that generates random Pakistani jokes, built with Python, UV, and FastAPI.
 
 ## Getting Started
 
@@ -29,8 +29,8 @@ uv --version
 ### 2️⃣ Create and Initialize the Project
 
 ```sh
-uv init simple-api
-cd simple-api
+uv init pakistani-joke-generator
+cd pakistani-joke-generator
 ```
 
 ---
@@ -38,7 +38,7 @@ cd simple-api
 ### 3️⃣ Install FastAPI (Dependency)
 
 ```sh
-uv add fastapi[standard]
+uv add fastapi uvicorn
 ```
 
 ---
@@ -57,10 +57,10 @@ source .venv/bin/activate
 
 ---
 
-### 5️⃣ Run Simple API
+### 5️⃣ Run the Joke Generator API
 
 ```sh
-fastapi dev main.py
+uvicorn main:app --reload
 ```
 
 ### 6️⃣ Test the API
@@ -68,8 +68,7 @@ fastapi dev main.py
 Paste the following into your browser:
 
 ```sh
-http://127.0.0.1:8000/side_hustles
-http://127.0.0.1:8000/money_quotes
+http://127.0.0.1:8000/joke
 ```
 
 or via Swagger UI:
@@ -78,5 +77,6 @@ or via Swagger UI:
 http://127.0.0.1:8000/docs
 ```
 
-🎉 That’s it! Your Simple API is ready to use 🚀
+🎉 That’s it! Your Pakistani Joke Generator API is ready to use 🚀
+
 

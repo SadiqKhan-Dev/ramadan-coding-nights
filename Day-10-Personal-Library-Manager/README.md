@@ -1,6 +1,6 @@
-# Simple Calculator
+# Personal Library Manager
 
-A simple command-line calculator built with Python and managed using **UV** package manager.
+A simple command-line application to manage your personal library, built with Python and managed using **UV** package manager. It uses `books_data.json` to store book information.
 
 ## Getting Started
 
@@ -29,8 +29,8 @@ uv --version
 ### 2️⃣ Create and Initialize the Project
 
 ```sh
-uv init simple-calculator
-cd simple-calculator
+uv init personal-library-manager
+cd personal-library-manager
 ```
 
 ---
@@ -49,10 +49,10 @@ source .venv/bin/activate
 
 ---
 
-### 4️⃣ Run the Calculator
+### 4️⃣ Run the Personal Library Manager
 
 ```sh
 uv run python main.py
 ```
 
-🎉 That’s it! Your Simple Calculator is ready to use 🚀
+🎉 That’s it! Your Personal Library Manager is ready to use 🚀
